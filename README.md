@@ -80,7 +80,7 @@ This project uses a Random Forest Regression model for car price prediction. The
 	•	Owner: Number of previous owners of the car.
 	•	Fuel Type: Petrol, Diesel, or CNG.
 	•	Seller Type: Dealer or Individual.
-	•	Transmission Type: Manual or Automatic.
+	•	Transmission Type: Manual or Automatic. 
 
 The model was trained using historical car sales data from Car Dekho Kaggle dataset to predict the resale value of cars.
 
