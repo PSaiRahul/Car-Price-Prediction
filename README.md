@@ -21,7 +21,7 @@ Table of Contents
 
  Installation
 
-   	1.	Clone the Repository:
+    1.	Clone the Repository:
         git clone https://github.com/yourusername/car-price-prediction.git
         cd car-price-prediction
     2.  Set up a virtual environment (optional but recommended):
