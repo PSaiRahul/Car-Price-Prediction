@@ -4,6 +4,7 @@ This is a Car Price Predictive Analysis Web Application built using Flask as the
 The model has been trained using machine learning techniques and deployed as a web application to predict car prices using user input.
 
 Table of Contents
+
 	•	Features
 	•	Installation
 	•	Usage
@@ -12,12 +13,14 @@ Table of Contents
 	•	Contributing
 
  Features
+ 
 	•	Predict the selling price of a car based on input parameters.
 	•	User-friendly web interface for entering car details.
 	•	Provides instant predictions.
 	•	Responsive design, accessible on both desktop and mobile devices.
 
  Installation
+ 
     1.	Clone the Repository:
         git clone https://github.com/yourusername/car-price-prediction.git
         cd car-price-prediction
@@ -33,6 +36,7 @@ Table of Contents
         Open a browser and go to http://127.0.0.1:5000/ to use the application.
 
 Usage
+
 	•	Open the web application in your browser.
 	•	Enter the details of the car you wish to get a price prediction for:
 	•	Year of purchase
@@ -46,6 +50,7 @@ Usage
 	•	The predicted car selling price will be displayed.
 
 Example Inputs:
+
 	•	Year: 2022
 	•	Present Price: 8.50 (in lakhs)
 	•	Kilometers Driven: 35000
@@ -57,6 +62,7 @@ Example Inputs:
 The application will return a predicted selling price, such as “You Can Sell The Car at ₹5.25 lakhs”.
 
 Technologies Used
+
 	•	Python: Main language used to build the application.
 	•	Flask: Lightweight web framework for handling web requests.
 	•	Sklearn: Machine learning library for training the Random Forest model.
@@ -67,6 +73,7 @@ Technologies Used
  Model Information
 
 This project uses a Random Forest Regression model for car price prediction. The features used in the model are:
+
 	•	Year: Year of purchase (transformed to car age by subtracting from the current year).
 	•	Present Price: Current showroom price of the car in lakhs.
 	•	Kilometers Driven: Total distance the car has been driven.
@@ -80,6 +87,7 @@ The model was trained using historical car sales data from Car Dekho Kaggle data
 Contributing
 
 Feel free to contribute to the project by submitting a pull request or opening an issue.
+
 	1.	Fork the repository.
 	2.	Create your feature branch (git checkout -b feature/feature_name).
 	3.	Commit your changes (git commit -m 'Add feature').
