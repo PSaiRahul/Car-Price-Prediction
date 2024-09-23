@@ -56,7 +56,7 @@ Example Inputs:
 	•	Kilometers Driven: 35000
 	•	Number of Owners: 1
 	•	Fuel Type: Petrol
-	•	Seller Type: Dealer
+	•	Seller Type: Dealer 
 	•	Transmission: Manual
 
 The application will return a predicted selling price, such as “You Can Sell The Car at ₹5.25 lakhs”.
